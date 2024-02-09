@@ -6,14 +6,16 @@ public class Item {
     private String itemName;
     private String itemType;
     private int itemQuantity;
+    private int itemPosition;
 
 
-    public Item(String slotLocation, String itemName, double itemPrice, String type, int itemQuantity) {
+    public Item(String slotLocation, String itemName, double itemPrice, String type, int itemQuantity, int itemPosition) {
         this.slotLocation = slotLocation;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
         this.itemType = type;
         this.itemQuantity = itemQuantity;
+        this.itemPosition = itemPosition;
     }
 
     public String getSlotLocation() {
@@ -55,6 +57,11 @@ public class Item {
     public void setItemQuantity(int itemQuantity) {
         this.itemQuantity = itemQuantity;
     }
+
+    public int getItemPosition() {
+        return this.itemPosition;
+    }
+
 }
 
 
