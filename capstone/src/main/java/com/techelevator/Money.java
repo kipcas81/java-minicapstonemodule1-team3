@@ -58,4 +58,6 @@ public class Money {
         return this.balance;
     }
 
+    public void setBalance(BigDecimal initialBalance) {
+    }
 }

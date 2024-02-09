@@ -10,7 +10,7 @@ public class Inventory {
     private List<Item> items = new ArrayList<>();
 
     private Item item = null;
-    private String filePath = "C:\\Users\\Student\\workspace\\java-minicapstonemodule1-team3\\capstone\\vendingmachine.csv";
+    private String filePath = "C:\\Users\\Student\\Desktop\\workspace\\java-minicapstonemodule1-team3\\capstone\\vendingmachine.csv";
     private int quantity = 2;
     private int itemPosition = 0;
 

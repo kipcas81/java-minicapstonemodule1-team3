@@ -12,7 +12,8 @@ import java.time.format.DateTimeFormatter;
 public class TransactionsLog {
 
 
-    private String LOG_FILE = "Test.txt";
+
+    public String LOG_FILE = "Test.txt";
 
 
 
